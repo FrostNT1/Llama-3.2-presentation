@@ -32,8 +32,8 @@ def scrape_links(url):
     links = [a.get('href') for a in soup.find_all('a', href=True)]
     full_links = [urljoin(base_url, link) for link in links if link.startswith('/') or link.startswith(base_url)]
     
-    # Filter links to ensure they are within the data science section
-    data_science_links = [link for link in full_links if link.startswith(base_url)]
+    # Filter links to ensure they are within the data science section and not PHP or likely empty pages
+    data_science_links = [link for link in full_links if link.startswith(base_url) and not link.endswith('.php') and not any(x in link for x in ['login', 'admin', 'wp-', 'feed', 'rss'])]
     
     return list(set(data_science_links))  # Return unique links only
 
