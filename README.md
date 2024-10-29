@@ -4,7 +4,8 @@
 
 1. [Overview](presentation-materials/overview.md)
 2. [Architecture Guide](presentation-materials/Llama%203.2%20Architecture%20Guide.md)
-3. [Limitations](presentation-materials/limitations.md)
+3. [Llama Stack](presentation-materials/02_llama-stack.md)
+4. [Limitations](presentation-materials/limitations.md)
 
 ## Additional Resources
 
@@ -20,9 +21,7 @@
 
 1. [Deep Learning Specialization](https://www.coursera.org/specializations/deep-learning) by Andrew Ng on Coursera
 
-2. [Natural Language Processing Specialization](https://www.coursera.org/specializations/natural-language-processing) on Coursera
-
-3. [Hugging Face Transformers Course](https://huggingface.co/course/chapter1/1)
+2. [Hugging Face Transformers Course](https://huggingface.co/course/chapter1/1)
 
 ### Books
 
@@ -31,32 +30,29 @@
 2. Jurafsky, D., & Martin, J. H. (2020). Speech and Language Processing (3rd ed. draft). 
 
 3. Vaswani, A., et al. (2017). "Attention Is All You Need." In Advances in Neural Information Processing Systems.
-
 ### Tools and Libraries
 
 1. [PyTorch](https://pytorch.org/) - Open source machine learning library
 
 2. [Transformers](https://github.com/huggingface/transformers) - State-of-the-art Natural Language Processing for PyTorch and TensorFlow 2.0
 
-3. [LangChain](https://github.com/hwchase17/langchain) - Building applications with LLMs through composability
+3. [Datasets](https://huggingface.co/docs/datasets/) - Library for easily accessing and sharing datasets
 
-4. [Weights & Biases](https://wandb.ai/) - MLOps platform for experiment tracking and model management
+4. [Gradio](https://gradio.app/) - Create UIs for your machine learning models
 
-### Datasets
-
-1. [The Pile](https://pile.eleuther.ai/) - An 800GB dataset of diverse text for language modeling
-
-2. [C4: Common Crawl's web crawl corpus](https://www.tensorflow.org/datasets/catalog/c4)
-
-3. [HuggingFace Datasets](https://huggingface.co/datasets) - A collection of NLP datasets
+5. [unsloth](https://github.com/unslothai/unsloth) - Efficient fine-tuning of LLMs with optimized CUDA kernels
 
 ### Blogs and Websites
 
-1. [Distill.pub](https://distill.pub/) - Clear explanations of machine learning concepts
+1. [Meta AI Blog](https://ai.meta.com/blog/) - Official blog covering LLaMA and other Meta AI research
 
-2. [Papers With Code](https://paperswithcode.com/) - Machine learning papers with code implementations
+2. [Llama](https://llama.com) - Official website for the LLaMA model family
 
-3. [AI Alignment Forum](https://www.alignmentforum.org/) - Discussions on AI safety and ethics
+3. [Hugging Face LLaMA Hub](https://huggingface.co/models?search=llama) - Collection of LLaMA models and weights
+
+4. [Unsloth](https://github.com/unslothai/unsloth) - Efficient LLaMA fine-tuning with optimized CUDA kernels
+
+5. [Ollama](https://ollama.ai/) - Run LLaMA and other open-source models locally
 
 
 ## Conclusion
