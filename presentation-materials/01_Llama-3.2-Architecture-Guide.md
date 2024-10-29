@@ -97,4 +97,4 @@ These architectural upgrades ensure that **LLaMA 3.2** is a model built not only
 
 ---
 
-[The Backbone of Llama 3.2](02_llama-satck.md)
+[The Backbone of Llama 3.2](./02_llama-satck.md)

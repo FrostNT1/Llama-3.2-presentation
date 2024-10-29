@@ -101,6 +101,6 @@ By the end of this presentation, you'll gain a solid understanding of what makes
 
 Let's explore more about how LLaMA 3.2 builds on its predecessors, how the architecture works, and why it could be your go-to model for a wide range of NLP tasks!
 
-[LLaMA 3.2 Architecture Guide](01_Llama-3.2-Architecture-Guide.md) 
+[LLaMA 3.2 Architecture Guide](./01_Llama-3.2-Architecture-Guide.md) 
 
 ---

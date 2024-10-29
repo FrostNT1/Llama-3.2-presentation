@@ -2,10 +2,13 @@
 
 ## Presentation Materials
 
-1. [Overview](presentation-materials/overview.md)
-2. [Architecture Guide](presentation-materials/Llama%203.2%20Architecture%20Guide.md)
+1. [Overview](presentation-materials/00_overview.md)
+2. [Architecture Guide](presentation-materials/01_Llama-3.2-Architecture-Guide.md)
 3. [Llama Stack](presentation-materials/02_llama-stack.md)
-4. [Limitations](presentation-materials/limitations.md)
+4. [Limitations](presentation-materials/03_limitations.md)
+
+## Colab Notebook
+[Notebook Link](https://colab.research.google.com/drive/1AKB1lHl07uQwUArNZ7On5KG_Atshmuyj#scrollTo=a3CvtqEOyYCu)
 
 ## Additional Resources
 
